@@ -1,82 +1,86 @@
-# A Crossword Puzzle
+<a name="readme-top"></a>
 
-This challenge should be solved using Ruby, but you can use another programming language if you prefer.
+# 📗 Table of Contents
 
-## Remember
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[Cross Words\] ](#-cross-words-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack Server side](#tech-stack-server-side)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+  - [🔭 Future Features ](#-future-features-)
 
-Showcase your computer science knowledge, coding skill, and attention to details
+<!-- PROJECT DESCRIPTION -->
 
-The most important thing is to have a completed, working, and correct implementation first
+# 📖 [Cross Words] <a name="about-project"></a>
 
-If possible reduce space/time complexity
+> This project is designed to find common characters between two words (horizontal and vertical), determine an intersection point based on the length of the words, and construct a textual representation of the intersection using a specified character (chosen_char). The resulting output visually represents the intersection of the two words using the chosen character.
 
-## The following resources are allowed
+**[cross-words]** Cross Words
+## 🛠 Built With <a name="built-with"></a>
+- Ruby
 
-- Wikipedia
-- Programming Language documentation
-- Coding tutorial
-- Books
-- Inclusion (within the solution) external libraries. However, be prepare to defend your decision
+### Tech Stack <a name="tech-stack">Server side</a>
 
-## The following resources are NOT allowed
+> Ruby
 
-- The help of another person
-- The help of an AI program (unless you wrote the AI from scratch to solve this problem)
-- Solutions (or partial solutions) found online or in printed materials that is solved by someone else
+<!-- Features -->
 
-## Overview
+### Key Features <a name="key-features"></a>
 
-Complete the `CrossWords.intersect` method that returns a single string result.
+- **[Method to find intersection between two words]**
 
-Each input is expected to be a single word, consisting of only letters a-z
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## The class attempts to
+<!-- LIVE DEMO -->
 
-Locate the earliest possible intersection of characters between the two words & crosses both words on the above intersection
+## 🚀 Live Demo <a name="live-demo"></a>
 
-The first word is to be rendered horizontally; while the second, vertically.
-The results are returned as a single string
+- ![Video](/cross_words_demo.mov)
 
-## Input & Output Examples
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-cat & hat:
+<!-- GETTING STARTED -->
 
-```text
- h
-cat
- t
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+- Ruby installed on your machine
+
+### Install
+
+Open the cloned directory on Vscode
+
+install gems(if exist) - run `bundle install`
+
+### Usage
+
+ On VScode on windows Right click inside the editor when the file is open to run the code
+
+```sh
+  cd lib
+  ruby main.rb
 ```
 
-balloon & bat
+### Run tests
 
-```text
-balloon
-a
-t
-```
+run "rspec ./spec/cross_words_spec.rb"
 
-faint & test
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-```text
-faint
-    e
-    s
-    t
-```
+<!-- FUTURE FEATURES -->
 
-road & dad
+## 🔭 Future Features <a name="future-features"></a>
 
-```text
-  d
-road
-  d
-```
+- [ ] **[Implementing intersection of multiple word entries]**
 
-dad & road
-
-```text
- r
- o
-dad
- d
-```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
